@@ -13,8 +13,10 @@
 		60C84A4E25ADAFF4007E04B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C84A4C25ADAFF4007E04B2 /* Main.storyboard */; };
 		60C84A5025ADAFF6007E04B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C84A4F25ADAFF6007E04B2 /* Assets.xcassets */; };
 		60C84A5325ADAFF6007E04B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C84A5125ADAFF6007E04B2 /* LaunchScreen.storyboard */; };
-		60C84A5E25ADAFF6007E04B2 /* BitriseExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C84A5D25ADAFF6007E04B2 /* BitriseExampleTests.swift */; };
-		60C84A6925ADAFF6007E04B2 /* BitriseExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C84A6825ADAFF6007E04B2 /* BitriseExampleUITests.swift */; };
+		60C84A7A25ADB358007E04B2 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C84A7925ADB358007E04B2 /* Calculator.swift */; };
+		60C84A7F25ADB455007E04B2 /* CalculatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C84A7E25ADB455007E04B2 /* CalculatoTests.swift */; };
+		60C84A8D25ADB53D007E04B2 /* BitriseExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C84A8C25ADB53D007E04B2 /* BitriseExampleUITests.swift */; };
+		60C84AA025ADB693007E04B2 /* BitriseExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C84A8C25ADB53D007E04B2 /* BitriseExampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +46,12 @@
 		60C84A5225ADAFF6007E04B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60C84A5425ADAFF6007E04B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60C84A5925ADAFF6007E04B2 /* BitriseExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitriseExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60C84A5D25ADAFF6007E04B2 /* BitriseExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitriseExampleTests.swift; sourceTree = "<group>"; };
 		60C84A5F25ADAFF6007E04B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60C84A6425ADAFF6007E04B2 /* BitriseExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitriseExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60C84A6825ADAFF6007E04B2 /* BitriseExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitriseExampleUITests.swift; sourceTree = "<group>"; };
 		60C84A6A25ADAFF6007E04B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C84A7925ADB358007E04B2 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		60C84A7E25ADB455007E04B2 /* CalculatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatoTests.swift; sourceTree = "<group>"; };
+		60C84A8C25ADB53D007E04B2 /* BitriseExampleUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitriseExampleUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 				60C84A4F25ADAFF6007E04B2 /* Assets.xcassets */,
 				60C84A5125ADAFF6007E04B2 /* LaunchScreen.storyboard */,
 				60C84A5425ADAFF6007E04B2 /* Info.plist */,
+				60C84A7925ADB358007E04B2 /* Calculator.swift */,
 			);
 			path = BitriseExample;
 			sourceTree = "<group>";
@@ -113,8 +117,8 @@
 		60C84A5C25ADAFF6007E04B2 /* BitriseExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				60C84A5D25ADAFF6007E04B2 /* BitriseExampleTests.swift */,
 				60C84A5F25ADAFF6007E04B2 /* Info.plist */,
+				60C84A7E25ADB455007E04B2 /* CalculatoTests.swift */,
 			);
 			path = BitriseExampleTests;
 			sourceTree = "<group>";
@@ -122,7 +126,7 @@
 		60C84A6725ADAFF6007E04B2 /* BitriseExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				60C84A6825ADAFF6007E04B2 /* BitriseExampleUITests.swift */,
+				60C84A8C25ADB53D007E04B2 /* BitriseExampleUITests.swift */,
 				60C84A6A25ADAFF6007E04B2 /* Info.plist */,
 			);
 			path = BitriseExampleUITests;
@@ -259,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60C84A4B25ADAFF4007E04B2 /* ViewController.swift in Sources */,
+				60C84A7A25ADB358007E04B2 /* Calculator.swift in Sources */,
 				60C84A4725ADAFF4007E04B2 /* AppDelegate.swift in Sources */,
 				60C84A4925ADAFF4007E04B2 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,7 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60C84A5E25ADAFF6007E04B2 /* BitriseExampleTests.swift in Sources */,
+				60C84A7F25ADB455007E04B2 /* CalculatoTests.swift in Sources */,
+				60C84A8D25ADB53D007E04B2 /* BitriseExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60C84A6925ADAFF6007E04B2 /* BitriseExampleUITests.swift in Sources */,
+				60C84AA025ADB693007E04B2 /* BitriseExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
