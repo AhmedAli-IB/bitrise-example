@@ -24,7 +24,7 @@ class CalculatoTests: XCTestCase {
 
     }
 
-    func testSum_ReturnTrues() throws {
-        XCTAssertTrue(sut.sum(1,4,6) == 21)
+    func testSum__passAndRetuenTrue() throws {
+        XCTAssertTrue(sut.sum(1,4,6) == 11)
     }
 }
